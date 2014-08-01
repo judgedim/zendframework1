@@ -129,7 +129,7 @@ class Zend_Acl_Role_Registry
              * @see Zend_Acl_Role_Registry_Exception
              */
             // require_once 'Zend/Acl/Role/Registry/Exception.php';
-            throw new Zend_Acl_Role_Registry_Exception("Role '$roleId' not found");
+            // throw new Zend_Acl_Role_Registry_Exception("Role '$roleId' not found");
         }
 
         return $this->_roles[$roleId]['instance'];
